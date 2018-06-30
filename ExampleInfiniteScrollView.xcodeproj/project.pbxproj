@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A027FAA20E6BD24007A5BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A027FA920E6BD24007A5BF9 /* Assets.xcassets */; };
 		FDEB8C811B70E8FA0011E5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8C801B70E8FA0011E5C9 /* AppDelegate.swift */; };
 		FDEB8C831B70E8FA0011E5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEB8C821B70E8FA0011E5C9 /* ViewController.swift */; };
 		FDEB8C861B70E8FA0011E5C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEB8C841B70E8FA0011E5C9 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A027FA920E6BD24007A5BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDEB8C7B1B70E8FA0011E5C9 /* ExampleInfiniteScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleInfiniteScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEB8C7F1B70E8FA0011E5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDEB8C801B70E8FA0011E5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A027FA820E6BCFA007A5BF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		FDEB8C721B70E8FA0011E5C9 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +95,8 @@
 		FDEB8C7D1B70E8FA0011E5C9 /* ExampleInfiniteScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				1A027FA920E6BD24007A5BF9 /* Assets.xcassets */,
+				1A027FA820E6BCFA007A5BF9 /* Resources */,
 				FDEB8C801B70E8FA0011E5C9 /* AppDelegate.swift */,
 				FDEB8C821B70E8FA0011E5C9 /* ViewController.swift */,
 				FDEB8CA01B70E9C30011E5C9 /* InfiniteCollectionView.swift */,
@@ -209,6 +220,7 @@
 				FDEB8CA51B7103640011E5C9 /* ExampleCollectionViewCell.xib in Resources */,
 				FDEB8C8B1B70E8FA0011E5C9 /* LaunchScreen.xib in Resources */,
 				FDEB8C881B70E8FA0011E5C9 /* Images.xcassets in Resources */,
+				1A027FAA20E6BD24007A5BF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

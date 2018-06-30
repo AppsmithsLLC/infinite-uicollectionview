@@ -159,7 +159,7 @@ extension InfiniteCollectionView: UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         let numberOfItems = infiniteDataSource?.numberOfItems(self) ?? 0
-        return  3 * numberOfItems
+        return max(3 * numberOfItems, 18)
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell

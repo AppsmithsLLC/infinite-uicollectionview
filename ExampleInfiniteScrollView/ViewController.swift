@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController
 {
-    fileprivate let cellItems = ["One", "Two", "Three", "Four", "Five", "Six"]
+    fileprivate let cellItems = ["One"]//, "Two", "Three", "Four", "Five", "Six"]
     
     @IBOutlet weak var infiniteCollectionView: InfiniteCollectionView!
     {
@@ -41,7 +41,8 @@ extension ViewController: InfiniteCollectionViewDataSource
     {
         let cell = infiniteCollectionView.dequeueReusableCell(withReuseIdentifier: "cellCollectionView", for: dequeueIndexPath) as! ExampleCollectionViewCell
         cell.lbTitle.text = cellItems[usableIndexPath.row]
-        cell.backgroundImage.image = UIImage(named: "cell-1")
+        cell.lbTag.text = "Originals"
+        cell.lbEpisode.text = "Season 1 Episode \(cellItems[usableIndexPath.row])"
         return cell
     }
 }

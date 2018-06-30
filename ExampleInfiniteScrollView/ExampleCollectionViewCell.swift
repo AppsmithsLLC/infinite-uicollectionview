@@ -12,7 +12,10 @@ class ExampleCollectionViewCell: UICollectionViewCell
 {
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var lbTitle: UILabel!
-
+    @IBOutlet var thumbNail: UIImageView!
+    @IBOutlet var lbEpisode: UILabel!
+    @IBOutlet var lbTag: UILabel!
+    
     override func awakeFromNib()
     {
         super.awakeFromNib()
